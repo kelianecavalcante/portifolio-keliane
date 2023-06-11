@@ -12,7 +12,8 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" </head>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
 <body>
     <!-- navbar -->
@@ -24,7 +25,7 @@
             <ul class="navbar__links">
                 <li><a href="#header">Início</a></li>
                 <li><a href="#about">Sobre</a></li>
-                <li><a href="#skills">Esperiências</a></li>
+                <li><a href="#skills">Habilidades</a></li>
                 <li><a href="#projects">Projetos</a></li>
                 <li><a href="#footer">Contato</a></li>
             </ul>
@@ -34,13 +35,11 @@
                 <ul class="mobile__links">
                     <li><a href="#header">Início</a></li>
                     <li><a href="#about">Sobre</a></li>
-                    <li><a href="#skills">Esperiências</a></li>
+                    <li><a href="#skills">Habilidades</a></li>
                     <li><a href="#projects">Projetos</a></li>
                     <li><a href="#footer">Contato</a></li>
                 </ul>
             </div>
-
-        </div>
         </div>
     </nav>
 
@@ -48,17 +47,16 @@
     <header id="header" class="max-width">
         <div class="header__left">
             <h1>Keliane Cavalcante</h1>
-            <h2>Desenvolvedora Front-end</h2>
+            <h2>Desenvolvedora Front end</h2>
             <p>
                 Olá, por meio deste portfólio, busco apresentar-me de forma breve e compartilhar um
                 pouco da minha trajetória no desenvolvimento de sistemas
             </p>
-            <a href="#about" class="btn btn-primary">Saiba Mais!</a>
+            <a href="#about" class="btn btn-primary"><i class="fas fa-download"></i> Currículo</a>
         </div>
         <div class="header__right">
             <div class="header__image">
                 <img src="assets/keliane-cavalcante.jpeg" alt="Foto Keliane Cavalcante" class="keliane" />
-                <!-- <img src="assets/abstract.svg" alt="background" class="background" /> -->
             </div>
         </div>
     </header>
@@ -103,10 +101,10 @@
         </div>
     </section>
 
-    <!-- Esperiências -->
+    <!-- Habilidades -->
     <section id="skills" class="skills">
         <div class="skills__content max-width">
-            <h2 class="tertiary-title">Esperiências</h2>
+            <h2 class="tertiary-title">Habilidades</h2>
             <p class="description">
                 Nesta seção, são destacadas algumas das habilidades e conhecimentos adquiridos, bem como
                 as experiências profissionais e acadêmicas que contribuíram para o meu desenvolvimento.
@@ -118,18 +116,19 @@
                     </div>
                     <h3>Atuação profissional</h3>
                     <p>
-                        Nome empresa: Sogg Software
+                        Nome empresa: Sogg Software <br>
                         Cargo ocupado: Desenvolvedora de Software
-                        Empresa especializada no desenvolvimento de softwares ERP sob encomenda.
-                        Atividades que desempenho:
-                    <ul style="list-style-type: disc;">
+                        Tempo de atuação: 1 ano e 6 meses <br>
+                        Sobre: A empresa é especializada no desenvolvimento de softwares ERP sob encomenda
+                        <!-- Atividades que desempenho:
+                   <ul style="list-style-type: disc;">
                         <li>Desenvolvimento de interfaces em PHP, HTML, CSS, Javascript e Adianti Framework</li>
                         <li>Manutenção de códigos</li>
                         <li>Eventual chamado de suporte</li>
                         <li>Upgrade de atividades burocráticas</li>
                         <li>Otimização ao software de suporte interno</li>
                         <li>Dentre outras demandas...</li>
-                    </ul>
+                    </ul> -->
                     </p>
                 </li>
                 <li class="skills__item">
@@ -139,8 +138,8 @@
                     <h3>Formação acadêmica</h3>
                     <p>
                         Sou formada em Sistemas de Informação bacharelado pela Universidade Federal de Rondonópolis
-                        (UFR - Mato Grosso), e atualmente estou cursando pós-graduação em Projetos de Aplicativos
-                        Móveis Multiplataforma no Descomplica Faculdade Digital.
+                        (UFR - MT), e atualmente estou cursando pós-graduação em Projetos de Aplicativos
+                        Móveis Multiplataforma no Descomplica Faculdade Digital
                     </p>
                 </li>
                 <li class="skills__item">
@@ -149,9 +148,8 @@
                     </div>
                     <h3>Algumas das tecnologias que tenho experiência</h3>
                     <p>
-                        | PHP | HTML5 | CSS3 | JavaScript | Adianti Framework | MySQL | Phinx
-                        | Docker | Docker-compose | Bootstrap | Controle de versionamento Git
-                        | Laravel | React | React Native | Figma|
+                        PHP - HTML5 - CSS3 - JavaScript - Adianti Framework - MySQL - Phinx - Docker - Docker-compose -
+                        Bootstrap - Controle de versionamento Git - Laravel - React - React Native
                     </p>
                 </li>
             </ul>
@@ -169,25 +167,27 @@
         <ul>
             <li>
                 <div class="image">
-                    <img src="assets/task-manager.png" alt="Gerenciamento de tarefas" />
+                    <img src="assets/crud.png" alt="crud livros" />
                 </div>
                 <div class="projects__info">
                     <h3 class="tertiary-title">
                         CRUD - Cadastro de Livros
                     </h3>
                     <p>
-                        Desenvolvimento de um sistema web <b>CRUD</b> para realizar o cadastro, listagem, edição e exclusão
+                        Desenvolvimento de um sistema web <b>CRUD</b> para realizar o cadastro, listagem, edição e
+                        exclusão
                         de livros em uma base de dados <b>MySQL</b>. Utilizando o framework da linguagem de programação
-                        <b>PHP, Laravel e aplicando o padrão MVC (model, view, controller).</b> 
+                        <b>PHP, Laravel e aplicando o padrão MVC (model, view, controller).</b>
                     </p>
-                    <a href="https://github.com/kelianecavalcante/crud_cadastroLivros" target="_blank" class="btn btn-primary">Acessar</a>
- 
-                    
+                    <a href="https://github.com/kelianecavalcante/crud_cadastroLivros" target="_blank"
+                        class="btn btn-primary">
+                        <i class="fab fa-github"></i> Código fonte
+                    </a>
                 </div>
             </li>
             <li class="projects__reversed-list">
                 <div class="image">
-                    <img src="assets/ecommerce.png" alt="ecommerce" />
+                    <img src="assets/financeiro.png" alt="financeiro" />
                 </div>
                 <div class="projects__info">
                     <h3 class="tertiary-title">
@@ -199,13 +199,15 @@
                         Desenvolvido a partir de tutorial disponibilizado pelo Youtube, canal devchallenge.
                         Utilizando de tecnologias como:<br> <b>Javascript, React JS e Styled-components.</b>
                     </p>
-                    <a href="https://github.com/kelianecavalcante/sistema-gerenciador-financeiro" target="_blank" class="btn btn-primary">Acessar</a>
-                    
+                    <a href="https://github.com/kelianecavalcante/sistema-gerenciador-financeiro" target="_blank"
+                        class="btn btn-primary">
+                        <i class="fab fa-github"></i> Código fonte
+                    </a>
                 </div>
             </li>
             <li>
                 <div class="image">
-                    <img src="assets/ecommerce.png" alt="ecommerce" />
+                    <img src="assets/habits.png" alt="habits" />
                 </div>
                 <div class="projects__info">
                     <h3 class="tertiary-title">
@@ -214,14 +216,19 @@
                     <p>
                         Habits tracker é um projeto desenvolvido durante o evento NLW Rocketseat 2023, com ele é
                         possível o usuario registrar e acompanhar os seus principais hábitos diários.
-                        tecnologias utilizadas: <b>HTML, CSS, JavaScript</b> 
+                        tecnologias utilizadas: <b>HTML, CSS, JavaScript</b>
                     </p>
-                    <a href="https://kelianecavalcante.github.io/nlw-setup/" target="_blank" class="btn btn-primary">Acessar</a>
+                    <a href="https://kelianecavalcante.github.io/nlw-setup/" target="_blank" class="btn btn-primary">
+                        <i class="fas fa-eye"></i>Visualizar
+                    </a>
+                    <a href="https://github.com/kelianecavalcante/nlw-setup" target="_blank" class="btn btn-primary">
+                        <i class="fab fa-github"></i> Código fonte
+                    </a>
                 </div>
             </li>
             <li class="projects__reversed-list">
                 <div class="image">
-                    <img src="assets/delivery.png" alt="delivery" />
+                    <img src="assets/dashboard.png" alt="dashboard" />
                 </div>
                 <div class="projects__info">
                     <h3 class="tertiary-title">
@@ -230,29 +237,38 @@
                     <p>
                         Esta aplicação consiste em exibir um dashboard a partir de dados fornecidos por um back end
                         construído com Spring Boot. Elaborado durante o evento Semana Spring React, oferecido pela
-                        DevSuperior. Criamos juntos um aplicativo web completo, utilizando <b>Spring Boot no back-end, e
-                        ReactJS no front-end.</b>
+                        DevSuperior. Criamos juntos um aplicativo web completo, utilizando <b>Spring Boot no back end, e
+                            ReactJS no front end.</b>
                     </p>
-                    <a href="https://dsvendas-keliane.netlify.app/" target="_blank" class="btn btn-primary">Acessar</a>
+                    <a href="https://dsvendas-keliane.netlify.app/" target="_blank" class="btn btn-primary">
+                        <i class="fas fa-eye"></i>Visualizar
+                    </a>
+                    <a href="https://github.com/kelianecavalcante/projeto-sds4" target="_blank" class="btn btn-primary">
+                        <i class="fab fa-github"></i> Código fonte
+                    </a>
                 </div>
             </li>
             <li>
                 <div class="image">
-                    <img src="assets/ecommerce.png" alt="ecommerce" />
+                    <img src="assets/orkut.png" alt="orkut" />
                 </div>
                 <div class="projects__info">
                     <h3 class="tertiary-title">
-                        Copia da página inicial do Orkut
+                        Cópia da página inicial do Orkut
                     </h3>
                     <p>
                         O projeto é uma versão do Orkut, criado com <b>React, styled-components e Next.js.</b> Foi
-                        desenvolvido como um projeto de front-end durante a Imersão React da Alura, utilizando o
+                        desenvolvido como um projeto de front end durante a Imersão React da Alura, utilizando o
                         React como principal ferramenta
                     </p>
-                    <a href="https://alurakut-eight-ashen.vercel.app/" target="_blank" class="btn btn-primary">Acessar</a>
+                    <a href="https://alurakut-eight-ashen.vercel.app/" target="_blank" class="btn btn-primary">
+                        <i class="fas fa-eye"></i> Visualizar
+                    </a>
+                    <a href="https://github.com/kelianecavalcante/alurakut" target="_blank" class="btn btn-primary">
+                        <i class="fab fa-github"></i> Código fonte
+                    </a>
                 </div>
             </li>
-
         </ul>
     </section>
 
@@ -261,7 +277,7 @@
         <div class="footer__content max-width mb-0">
             <h2 class="tertiary-title mb-s">Redes Sociais</h2>
             <p class="mb-m">
-                Aqui estão algumas das redes sociais em que você pode me encontrar!
+                Aqui estão algumas das redes sociais onde você pode me encontrar!
             </p>
             <ul>
                 <li>
